@@ -128,7 +128,7 @@ export default function Hero() {
             {/* Modern frame wrapper */}
             <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-card bg-muted">
               <Image
-                src="/images/hero-dentist.png"
+                src="/smilecare/images/hero-dentist.png"
                 alt="SmileCare Dental Clinic Patient and Dentist"
                 fill
                 priority
