@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "SmileCare Dental Clinic",
   tagline: "Your Perfect Smile Starts Here",
   description: "Experience world-class, premium dental care in a comfortable, state-of-the-art environment. SmileCare Dental Clinic offers personalized treatment plans for the whole family.",
-  calendlyUrl: "https://calendly.com/acme/30min", // Default demo link
+  calendlyUrl: "https://calendly.com/singleboss643/30min", // User's live link
   whatsappUrl: "https://wa.me/15552345678?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20a%20dental%20appointment.",
   phone: "+1 (555) 234-5678",
   phoneRaw: "+15552345678",
