@@ -183,3 +183,8 @@ body {
   animation-play-state: paused;
 }
 
+/* Hide Calendly's default blue loader spinner */
+.calendly-spinner {
+  display: none !important;
+}
+
