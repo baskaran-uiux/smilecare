@@ -85,9 +85,9 @@ export default function Navbar() {
             {/* Quick Call */}
             <a
               href={`tel:${siteConfig.phoneRaw}`}
-              className="flex items-center text-sm font-semibold text-primary hover:text-primary/80 transition-colors"
+              className="flex items-center text-sm font-bold text-foreground hover:text-primary transition-colors"
             >
-              <Phone className="h-4 w-4 mr-2" />
+              <Phone className="h-4 w-4 mr-2 text-primary" />
               {siteConfig.phone}
             </a>
 
@@ -150,9 +150,9 @@ export default function Navbar() {
           <div className="pt-4 border-t border-border flex flex-col space-y-4 px-3">
             <a
               href={`tel:${siteConfig.phoneRaw}`}
-              className="flex items-center text-base font-semibold text-primary"
+              className="flex items-center text-base font-bold text-foreground hover:text-primary"
             >
-              <Phone className="h-5 w-5 mr-3" />
+              <Phone className="h-5 w-5 mr-3 text-primary" />
               {siteConfig.phone}
             </a>
             <button
