@@ -79,7 +79,7 @@ export default function About() {
             {/* Main Image */}
             <div className="relative aspect-square w-full max-w-[440px] mx-auto rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-card bg-muted">
               <Image
-                src="/smilecare/images/equipment.png"
+                src="/images/equipment.png"
                 alt="SmileCare Dental Advanced Medical Equipment"
                 fill
                 sizes="(max-w-1024px) 100vw, 440px"

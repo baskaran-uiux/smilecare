@@ -105,7 +105,7 @@ export const siteConfig = {
       experience: "15+ Years",
       specialty: "Dental Implants & Smile Makeovers",
       timings: "Mon - Wed: 9:00 AM - 5:00 PM",
-      image: "/smilecare/images/doctor-2.png",
+      image: "/images/doctor-2.png",
       bio: "Dr. Vance is a recognized expert in implant surgery and advanced cosmetic restorations. He has placed over 3,000 implants and is passionate about combining clinical excellence with digital design tools for perfect smile makeovers."
     },
     {
@@ -116,7 +116,7 @@ export const siteConfig = {
       experience: "10+ Years",
       specialty: "Pediatric Dentistry & Preventive Care",
       timings: "Thu - Sat: 9:00 AM - 4:00 PM",
-      image: "/smilecare/images/doctor-1.png",
+      image: "/images/doctor-1.png",
       bio: "Dr. Jenkins makes dental visits fun and anxiety-free for children and adults alike. Specializing in behavior management and interceptive orthodontics, she focuses on building positive healthcare memories."
     }
   ],

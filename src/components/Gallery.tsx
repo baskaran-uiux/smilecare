@@ -23,14 +23,14 @@ export default function Gallery() {
       category: "clinic",
       title: "State-of-the-art Lobby",
       description: "Our luxury reception and patient lounge designed for ultimate comfort.",
-      image: "/smilecare/images/clinic-interior.png",
+      image: "/images/clinic-interior.png",
     },
     {
       id: "clinic-2",
       category: "clinic",
       title: "Advanced Operatory",
       description: "Equipped with low-radiation digital scanners and ergonomic seating.",
-      image: "/smilecare/images/equipment.png",
+      image: "/images/equipment.png",
     },
   ];
 
@@ -102,7 +102,7 @@ export default function Gallery() {
                 
                 {/* Under Layer: AFTER Image */}
                 <Image
-                  src="/smilecare/images/after-teeth.png"
+                  src="/images/after-teeth.png"
                   alt="Teeth after whitening treatment"
                   fill
                   sizes="(max-w-768px) 100vw, 768px"
@@ -116,7 +116,7 @@ export default function Gallery() {
                   style={{ clipPath: `polygon(0 0, ${sliderPos}% 0, ${sliderPos}% 100%, 0 100%)` }}
                 >
                   <Image
-                    src="/smilecare/images/before-teeth.png"
+                    src="/images/before-teeth.png"
                     alt="Teeth before whitening treatment"
                     fill
                     sizes="(max-w-768px) 100vw, 768px"

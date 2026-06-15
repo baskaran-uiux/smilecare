@@ -31,6 +31,20 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden grid-bg">
+      {/* Background Video */}
+      <div className="absolute inset-0 w-full h-full -z-20 overflow-hidden">
+        <video
+          src="/banner.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        />
+        {/* Overlay for legibility */}
+        <div className="absolute inset-0 bg-background/80 dark:bg-background/85 backdrop-blur-[1px]" />
+      </div>
+
       {/* Background Gradients */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl -z-10" />
       <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-secondary/15 rounded-full blur-3xl -z-10" />
@@ -128,7 +142,7 @@ export default function Hero() {
             {/* Modern frame wrapper */}
             <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-card bg-muted">
               <Image
-                src="/smilecare/images/hero-dentist.png"
+                src="/images/hero-dentist.png"
                 alt="SmileCare Dental Clinic Patient and Dentist"
                 fill
                 priority
