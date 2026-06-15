@@ -101,13 +101,10 @@ export default function Gallery() {
               <div className="relative aspect-[16/10] w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-card select-none">
                 
                 {/* Under Layer: AFTER Image */}
-                <Image
+                <img
                   src="/smilecare/images/after-teeth.png"
                   alt="Teeth after whitening treatment"
-                  fill
-                  sizes="(max-w-768px) 100vw, 768px"
-                  className="object-cover"
-                  priority
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
                 
                 {/* Over Layer: BEFORE Image + Label (Clipped dynamically using clip-path) */}
@@ -115,13 +112,10 @@ export default function Gallery() {
                   className="absolute inset-0 overflow-hidden z-10 pointer-events-none"
                   style={{ clipPath: `polygon(0 0, ${sliderPos}% 0, ${sliderPos}% 100%, 0 100%)` }}
                 >
-                  <Image
+                  <img
                     src="/smilecare/images/before-teeth.png"
                     alt="Teeth before whitening treatment"
-                    fill
-                    sizes="(max-w-768px) 100vw, 768px"
-                    className="object-cover"
-                    priority
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
                   
                   {/* Before Label - Clips along with the before image */}
