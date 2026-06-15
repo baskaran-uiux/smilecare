@@ -24,7 +24,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative min-h-[550px] lg:h-[620px] flex items-center overflow-hidden py-16 md:py-20">
+    <section id="home" className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
       {/* Background Video (Full Opacity on the right, faded on the left for text readability) */}
       <div className="absolute inset-0 w-full h-full -z-20 overflow-hidden">
         <video
