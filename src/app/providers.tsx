@@ -16,8 +16,13 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") as Theme | null;
-    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const initialTheme = savedTheme || (systemPrefersDark ? "dark" : "light");
+    
+    // Determine theme based on current local time (6 AM to 6 PM is light, 6 PM to 6 AM is dark)
+    const currentHour = new Date().getHours();
+    const isNightTime = currentHour >= 18 || currentHour < 6;
+    const timeBasedTheme = isNightTime ? "dark" : "light";
+    
+    const initialTheme = savedTheme || timeBasedTheme;
     setTheme(initialTheme);
     
     if (initialTheme === "dark") {
