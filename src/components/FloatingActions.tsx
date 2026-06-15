@@ -62,9 +62,6 @@ export default function FloatingActions() {
               >
                 <X className="h-3.5 w-3.5" />
               </button>
-              
-              {/* Tooltip speech bubble tail */}
-              <div className="absolute -bottom-2 right-6 w-4 h-4 bg-background border-r border-b border-border rotate-45 transform translate-y-px -z-10 dark:bg-card" />
             </motion.div>
           )}
         </AnimatePresence>
